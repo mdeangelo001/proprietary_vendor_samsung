@@ -44,6 +44,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressovzw/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
     vendor/samsung/espressovzw/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/samsung/espressovzw/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
+    vendor/samsung/espressovzw/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+    vendor/samsung/espressovzw/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/samsung/espressovzw/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/espressovzw/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/espressovzw/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
@@ -68,6 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressovzw/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/espressovzw/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/espressovzw/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/samsung/espressovzw/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/espressovzw/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/espressovzw/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -85,9 +90,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/espressovzw/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/samsung/espressovzw/proprietary/lib/libakmd.so:system/lib/libakmd.so \
     vendor/samsung/espressovzw/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
+    vendor/samsung/espressovzw/proprietary/lib/liblibmagnet.so:system/lib/liblibmagnet.so \
     vendor/samsung/espressovzw/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/samsung/espressovzw/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/samsung/espressovzw/proprietary/lib/libsensor_yamaha532_test.so:system/lib/libsensor_yamaha532_test.so \
+    vendor/samsung/espressovzw/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
+    vendor/samsung/espressovzw/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/samsung/espressovzw/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/samsung/espressovzw/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/espressovzw/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/espressovzw/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/samsung/espressovzw/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
